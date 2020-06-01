@@ -1,0 +1,113 @@
+
+
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Clients</title>
+  <link rel="stylesheet" type="text/css" href="css/style_prod.css">
+
+
+
+
+</head>
+
+
+<body>
+  
+  
+
+  <ul class="menu cf">
+    <li><a href="index.html">Page d'acceuil </a></li>
+    <li>
+        <a href="clients.html">Clients</a>
+                
+    </li>
+    
+    <li>
+        <a href="produits.html">Produits</a>
+                
+    </li>
+
+    <li>
+        <a href="commandes.html">Commandes</a>
+                      
+    </li>
+
+    <li>
+        <a href="details_commande.html">Details Commandes</a>
+            
+    </li>
+     <li>
+        <a href="statistiques.html">Statistiques</a>
+           
+    </li>
+  
+</ul>
+</br></br></br></br></br>
+   <div id="insert">
+      <h2>Insertion des Clients</h2>
+      <label for="numclient">No de l'employé (4 a 8 caractères):</label>
+      <input
+        type="text"
+        id="numclient"
+        name="numclient"
+        required
+        minlength="4"
+        maxlength="8"
+        size="10"
+      />
+      <label for="nom">Nom de l'employé (10 a 20 caractères):</label>
+      <input
+        type="text"
+        id="nom"
+        name="nom"
+        required
+        minlength="2"
+        maxlength="20"
+        size="10"
+      />
+      <input id="clickMe" type="button" value="Insérer" onclick="ins_client();" />
+    </div>
+
+  <div class="CSSTableGenerator" >
+  
+                <table >              
+                    <tr>
+                        <td >
+                        Numero Client
+                        </td>
+                        <td>
+                         Raison Sociale
+                        </td>
+                        <td>
+                          Adresse
+                        </td>
+                        <td>
+                          Ville
+                        </td>
+                        <td>
+                          Pays
+                        </td>
+                        <td>
+                          Telephone
+                        </td>
+						
+                    </tr>
+				<tbody id="tabBody">
+					
+					</tbody>
+
+                </table>
+
+
+            </div>
+            
+    <script src="exemple.js"></script>
+
+    
+
+</body>
+
+
+
+</html>
